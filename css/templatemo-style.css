@@ -557,7 +557,7 @@ margin-top: 50px;
      NEWS              
   -----------------------------------------*/
 
-  .news-thumb {
+  /* .news-thumb {
     clear: both;
     position: relative;
     overflow: hidden;
@@ -578,7 +578,7 @@ margin-top: 50px;
   .news-date span {
     color: #909090;
     font-weight: bold;
-  }
+  } */
 
 
 
@@ -636,7 +636,30 @@ margin-top: 50px;
     font-size: 14px;
   }
 
+/* news */
+ #news .item {
+    background: #ffffff;
+    margin: 20px 0;
+    padding: 4em 3em;
+    text-align: left;
+  }
 
+  #courses .col-md-4,
+  #news .col-md-4 {
+    display: block;
+    width: 100%;
+  }
+
+  #news .item > p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .section-title h2 {
+    text-align: center;
+    padding-bottom: 10px;
+  }
+ 
 
   /*---------------------------------------
       CONTACT             
@@ -983,4 +1006,47 @@ margin-top: 50px;
 .flex h4{
     font-family: 'muli';
     color:#DFDFDF;
+}
+
+
+/* Drop down menu */
+
+.about-edition {
+  float: none;
+  display: none;
+}
+
+ul li:hover ul {
+  display: block;
+}
+
+.about-edition {
+  text-decoration: none;
+  list-style: none;
+  text-align: left;
+  padding-left: 0px;
+}
+.about-edition li {
+  margin-left: 0px;
+  padding-left: 0px;
+  padding-top:10px;
+  padding-bottom: 10px;
+
+
+
+}
+.about-edition a {
+  background-color: none;
+}
+
+.about-edition a:hover {
+  background-color:#3f51b5; 
+}
+.about-edition li:hover {
+  background-color:#3f51b5;
+}
+
+
+.program-list {
+  color:#757575;
 }
