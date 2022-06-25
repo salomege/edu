@@ -76,7 +76,7 @@
   }
 
   a:hover, a:active, a:focus {
-    color: #29ca8e;
+    color: #3f51b5;
     outline: none;
   }
 
@@ -1053,4 +1053,19 @@ ul li:hover ul {
 
 .program-list {
   color:#757575;
+}
+
+
+/* news conteiners */
+
+.news-conteiner {
+  max-width: 1000px;
+  margin:0 auto;
+  margin-top: 45px;
+  font-size: 18px;
+  padding:30px;
+}
+.blue-line {
+  background-color:#3f51b5;
+  height:70px;
 }
