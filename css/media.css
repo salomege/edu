@@ -1,0 +1,16 @@
+@media (max-width:1024px) {
+    .main-photo{
+max-width:500px;
+margin:0 auto;
+    }
+   .third-section {
+       gap:0px;
+   }
+    
+}
+
+@media (max-width:550px) {
+    .third-section {
+        flex-direction: column; 
+    }
+}
