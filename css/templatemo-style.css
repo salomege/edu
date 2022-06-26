@@ -53,7 +53,9 @@
     
   }
 
-
+.italic {
+  font-style: italic;
+}
 
   /*---------------------------------------
      GENERAL               
@@ -558,36 +560,6 @@ margin-top: 50px;
   }
 
 
-
-  /*---------------------------------------
-     NEWS              
-  -----------------------------------------*/
-
-  /* .news-thumb {
-    clear: both;
-    position: relative;
-    overflow: hidden;
-    margin-bottom: 30px;
-  }
-
-  .news-thumb .news-image {
-    float: left;
-    width: 40%;
-    margin-right: 30px;
-  }
-
-  .news-info h3 {
-    margin-top: 5px;
-    margin-bottom: 10px;
-  }
-
-  .news-date span {
-    color: #909090;
-    font-weight: bold;
-  } */
-
-
-
   /*---------------------------------------
       TESTIMONIAL             
   -----------------------------------------*/
@@ -1070,4 +1042,8 @@ ul li:hover ul {
 .blue-line {
   background-color:#3f51b5;
   height:70px;
+}
+
+.blog-div {
+  height: 350px;
 }
